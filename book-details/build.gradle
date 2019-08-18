@@ -28,4 +28,12 @@ dependencies {
     implementation 'com.google.guava:guava:26.0-jre'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.8.1'
+
+//	compile 'com.shawn_works.gateway:apigateway-sdk:1.5-SNAPSHOT'
+
+//	compile 'org.springframework.security:spring-security-cas'
+
+    implementation 'com.google.code.gson:gson:2.8.5'
 }
